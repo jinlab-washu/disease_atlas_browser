@@ -201,21 +201,21 @@ export const getColumns = ({ width, includeHomozygoteAC, includeHemizygoteAC }) 
     },*/
     {
       key: 'ac',
-      heading: width < 600 ? 'AC' : 'PKD Allele Count',
+      heading: width < 600 ? 'AC' : 'Allele Count',
       grow: 0,
       isSortable: true,
       minWidth: width < 600 ? 75 : 80,
     },
     {
       key: 'an',
-      heading: width < 600 ? 'AN' : 'PKD Allele Number',
+      heading: width < 600 ? 'AN' : 'Allele Number',
       grow: 0,
       isSortable: true,
       minWidth: width < 600 ? 75 : 80,
     },
     {
       key: 'af',
-      heading: width < 600 ? 'AF' : 'PKD Allele Frequency',
+      heading: width < 600 ? 'AF' : 'Allele Frequency',
       grow: 0,
       isSortable: true,
       minWidth: width < 600 ? 75 : 80,

@@ -116,7 +116,7 @@ class NavBar extends Component {
         <NavBarWrapper>
           <LogoWrapper>
             <Link to="/" onClick={this.closeMenu}>
-              <Logo>PKD Browser</Logo>
+              <Logo>WashU Disease Atlas</Logo>
             </Link>
             <ToggleMenuButton onClick={this.toggleMenu}>☰</ToggleMenuButton>
           </LogoWrapper>

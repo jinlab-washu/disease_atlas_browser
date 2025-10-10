@@ -68,7 +68,6 @@ export default () => (
   <InfoPage>
     <DocumentTitle title="FAQ" />
     <PageHeading>Frequently Asked Questions</PageHeading>
-    Place holder text.
 
   </InfoPage>
 )

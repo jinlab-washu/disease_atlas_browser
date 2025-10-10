@@ -194,12 +194,12 @@ const PcgcVariantPage = ({ datasetId, variantId }) => (
               <VariantInSilicoPredictors variant={variant} />
               </div>
               )}
-              {!!variant.mayo_variant_details && (
+              {/*!!variant.mayo_variant_details && (
               <div>
               <h2>Mayo PKD Variant Database</h2>
               <VariantInMayoDB variant={variant} />
               </div>
-              )}
+              )*/}
 
             </Section>
             <ResponsiveSection>
@@ -251,11 +251,6 @@ const PcgcVariantPage = ({ datasetId, variantId }) => (
             )}
 
            <br /><br />
-            <b>Appropriate Data Usage:</b> The database is meant to be used for research purposes only. 
-            The database contains all variants found in the sequenced population of individuals with polycystic kidney disease. 
-            The presence of a variant in this population does not indicate that it is pathogenic. The data is not intended to be used for the provision of clinical care.
-            <br /><br />
-
             {/*<ResponsiveSection>
               <h2>Site Quality Metrics</h2>
               <GnomadSiteQualityMetrics datasetId={datasetId} variant={variant} />

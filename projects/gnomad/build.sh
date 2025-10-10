@@ -24,4 +24,5 @@ webpack --config=./config/webpack.config.server.js
 
 #curl http://www.leklab.org/wp-content/uploads/2020/04/SFARI.png --output ./dist/public/SFARI.png
 
-cp ~/PKD_GenomeBrower_Logo.jpg ./dist/public
+#cp ~/PKD_GenomeBrower_Logo.jpg ./dist/public
+cp ~/disease_atlas_logo.png ./dist/public

@@ -192,9 +192,9 @@ const fetchVariantsByGene = async (ctx, geneId, canonicalTranscriptId, subset) =
   //console.log(gnomad_data.data.gene.symbol)
   //const dnms = await fetchDenovos(ctx,geneId)
   //annotateVariantsWithDenovoFlag(combinedVariants,dnms)
-  const mayo = await fetchMayoVariants(ctx,gnomad_data.data.gene.symbol)
+  //const mayo = await fetchMayoVariants(ctx,gnomad_data.data.gene.symbol)
   //console.log(mayo)
-  annotateVariantsWithMayoFlag(combinedVariants,mayo)
+  //annotateVariantsWithMayoFlag(combinedVariants,mayo)
 
   return combinedVariants
   
