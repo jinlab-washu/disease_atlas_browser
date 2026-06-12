@@ -71,5 +71,17 @@ export default () => (
   <InfoPage>
     <DocumentTitle title="About WashU Rare Disease Atlas" />
     <PageHeading id="about-sfari">About WashU Rare Disease Atlas</PageHeading>
+
+    <div>
+      <p>
+        The WashU Rare Disease Atlas is a resource for exploring rare disease
+        genomic data.
+      </p>
+      
+      <p>
+        Additional content and documentation will be added as development
+        progresses.
+      </p>
+    </div>
   </InfoPage>
 )
