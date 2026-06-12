@@ -74,8 +74,7 @@ export default () => (
 
     <div>
       <p>
-        The WashU Rare Disease Atlas is a resource for exploring rare disease
-        genomic data.
+        The WashU Disease Atlas will integrate de-identified, aggregate genomic and phenotypic data into a centralized, accessible resource, accelerating discovery and enabling future translational studies for researchers, clinicians, and families
       </p>
       
       <p>
