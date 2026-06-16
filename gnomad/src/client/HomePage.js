@@ -179,7 +179,7 @@ export default () => (
 
         <CohortGrid>
           <CohortCard>
-            <CohortName>CHD</CohortName>
+            <CohortName>CH</CohortName>
             <CohortText>
               Explore variants and gene associations related to congenital hydrocephalus.
             </CohortText>
